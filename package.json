@@ -1,0 +1,13 @@
+{
+  "name": "ColmanHack",
+  "version": "0.0.1",
+  "dependencies": {
+    "config": "^1.25.1",
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11",
+    "unirest": "^0.5.1"
+  },
+  "scripts": {
+    "start": "pm2 start process.json"
+  }
+}
