@@ -2,9 +2,14 @@
   "name": "ColmanHack",
   "version": "0.0.1",
   "dependencies": {
+    "body-parser": "^1.17.1",
     "config": "^1.25.1",
     "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "lodash": "latest",
+    "mongodb": "^2.2.25",
     "pug": "^2.0.0-beta11",
+    "randomstring": "^1.1.5",
     "unirest": "^0.5.1"
   },
   "scripts": {

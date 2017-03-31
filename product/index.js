@@ -17,12 +17,19 @@ function getProducts(keyword) {
             ));
 }
 
+const country_to_city = {
+    US: "New York",
+    GB: "London",
+    NL: "Amsterdam",
+    EU: "London"
+};
+
 function getProduct(productObj) {
     return {
         img: productObj.images[0],
         name: productObj.name,
         price: productObj.price.toString() + productObj.currency,
-        country: productObj.source.country
+        city: country_to_city[productObj.source.country] || "Empty"
     };
 }
 
